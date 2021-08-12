@@ -27,6 +27,27 @@ public class Person
     @Column(nullable = false)
     private String lastName;
 
+    @Column(nullable = false)
+    private String email;
+
+    @Column(nullable = false)
+    private String state;
+
+    @Column(nullable = false)
+    private String city;
+
+    @Column(nullable = false)
+    private String zipcode;
+
+    @Column(nullable = false)
+    private String district;
+
+    @Column(nullable = false)
+    private String road;
+
+    @Column(nullable = false)
+    private int number;
+
     @Column(nullable = false, unique = true)
     private String cpf;
 
